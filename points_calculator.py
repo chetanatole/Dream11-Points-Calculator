@@ -194,6 +194,7 @@ def calculate_ODI_points(playerstats):
 
 if __name__=="__main__":
     print("Select Type of Match\n1.T20\n2.One Day")
+    print("Enter Choice : ")
     type = int(input())
     print("Enter ESPN Cricinfo scorecard link : ")
     url = input()

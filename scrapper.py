@@ -191,11 +191,6 @@ def get_playerstats(url):
             player_stats[name]["LBW/Bowled Wickets"]+=1
     return player_stats
         
-if __name__=="__main__":
-    print("Enter scorecard link : ")
-    url = input()
-    pprint(get_playerstats(url))
-
 
                 
 
